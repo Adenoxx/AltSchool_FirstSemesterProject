@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, rgb(237, 235, 231) 30%, rgb(237, 235, 231) 30%, rgb(250, 247, 231) 60%, rgb(250, 247, 231) 60%)
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  /* text-align: center; */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.logo_text {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* margin: 10px; */
+}
+
+.img_sci_vec {
+    display: flex;
+    gap: 5px;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+.navigation {
+    /* background-color: green; */
+    margin-right: 70px;
+}
+
+.link {
+text-decoration: none;
+display: inline-block;
+margin-left: 40px;
+color: #000;
+}
+
+.link:first-child {
+    color: blue;
+}
+
+.link_ {
+    display: flex;
+    align-items: center;
+    /* background-color: green; */
+    /* color: red; */
+    margin-right: 0;
+}
+
+.link_1 {
+    text-align: center;
+}
+
+.hero {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: end;
+  margin-bottom: 20px;
+}
+
+.hero_2 {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  background-color: transparent;
+}
+
+.rectangle_img {
+    display: flex;
+    justify-self:center;
+    /* background-color: green; */
+    text-align: center;
+}
+
+.elipse {
+  position: absolute;
+  background-color: transparent;
+  top: 23px;
+  left: 245px;
+  text-align: center;
+}
+
+.below_hero {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* justify-content: space-between; */
+    background-color: hsla(206, 23%, 94%, 0.8);
+    ;
+    margin-top: 20px;
+}
+
+.next_hero {
+    display: flex;
+    gap: 20px;
+    background-color: hsla(206, 23%, 94%, 0.8);
+    ;
+    margin-top: 20px;   
+}
+
+.bhero_1 {
+    /* background-color: green; */
+    width: 50%;
+}
+
+.bhero_2 {
+    display: flex;
+    /* align-items: center; */
+    gap: 15px;
+    justify-content: space-evenly;
+}
+
+.link-2 {
+    padding: 10px;
+    background-color: hsl(216, 100%, 60%, 0.13);
+    border-radius: 50%;
+}
+
+.nhero_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    column-gap: 90px;
+}
